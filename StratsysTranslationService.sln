@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StratsysTranslationService", "StratsysTranslationService\StratsysTranslationService.csproj", "{6140A2D2-EFDA-44B2-8D1C-25232D7D41C5}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{5D7A4FC2-0B82-46AA-AFE0-3435193E0220}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6140A2D2-EFDA-44B2-8D1C-25232D7D41C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6140A2D2-EFDA-44B2-8D1C-25232D7D41C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6140A2D2-EFDA-44B2-8D1C-25232D7D41C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6140A2D2-EFDA-44B2-8D1C-25232D7D41C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D7A4FC2-0B82-46AA-AFE0-3435193E0220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D7A4FC2-0B82-46AA-AFE0-3435193E0220}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D7A4FC2-0B82-46AA-AFE0-3435193E0220}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D7A4FC2-0B82-46AA-AFE0-3435193E0220}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0474EE21-BFF7-4641-B420-D012D68B6F4D}
+	EndGlobalSection
+EndGlobal

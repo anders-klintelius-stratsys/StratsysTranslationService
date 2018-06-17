@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  stratsystranslationservice:
+    image: stratsystranslationservice
+    build:
+      context: ./StratsysTranslationService
+      dockerfile: Dockerfile
