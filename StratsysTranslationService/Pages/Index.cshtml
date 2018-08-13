@@ -1,20 +1,21 @@
 ﻿@page
 @model RazorPagesContacts.Pages.IndexModel
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
-
+<script src="~/js/site.js"></script>
 <h1>Translate</h1>
 <form method="post">
     <div asp-validation-summary="All"></div>
-        <div>
-            <textarea asp-for="Customer.From" rows="5" cols="40"></textarea>
-            <span asp-validation-for="Customer.From"></span>
-        </div>
     <div>
-        <textarea rows="5" cols="40">@Model.Message</textarea>
-        <textarea asp-for="Customer.To" rows="5" cols="40"></textarea>
-  </div>
+        <textarea asp-for="Customer.From" rows="5" cols="40"></textarea>
+        <span asp-validation-for="Customer.From"></span>
+    </div>
+    <div>
+        <textarea rows="5" cols="140">@Model.Message</textarea>
+        <textarea rows="5" cols="140">@Model.Message2</textarea>
+    </div>
  
     <div>
-        <button type="submit">Save</button>
+        <button type="submit" onclick="translatebtn();">Översätt</button>
     </div>
 </form>
+<div id="progress" class="progress"><div id="bar" class="bar"></div><div id="label" class="label">0%</div></div>
